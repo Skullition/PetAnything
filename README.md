@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Pet Anything
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Description
+A mod that lets you pet most entities in Minecraft! Might even turn them friendly...
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is licensed under GNU GPLv3. Therefore, feel free to use this in your modpacks/ anything that adheres under the GNU GPLv3 license.
