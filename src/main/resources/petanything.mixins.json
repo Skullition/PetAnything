@@ -4,6 +4,7 @@
   "package": "skullition.petanything.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "EntityMixin"
   ],
   "client": [
   ],
