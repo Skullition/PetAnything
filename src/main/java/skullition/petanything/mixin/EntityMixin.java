@@ -41,6 +41,7 @@ public abstract class EntityMixin {
 	public void interactMixin(PlayerEntity player, Hand hand, CallbackInfoReturnable<ActionResult> cir) {
 		ItemStack stack = player.getStackInHand(hand);
 		if (stack.isEmpty()) {
+			// TODO: Change SoundEvent
 			this.world.playSound(null, this.getBlockPos(), SoundEvents.ENTITY_WOLF_WHINE, this.getSoundCategory(), 1F, 1F);
 		}
 		if (this.world.isClient()) {
