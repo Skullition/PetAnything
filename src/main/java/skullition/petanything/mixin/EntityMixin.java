@@ -28,7 +28,6 @@ public abstract class EntityMixin {
 
 	@Shadow public abstract SoundCategory getSoundCategory();
 
-
 	@Shadow @Final protected Random random;
 
 	@Shadow public abstract double getParticleX(double widthScale);
@@ -42,7 +41,7 @@ public abstract class EntityMixin {
 		ItemStack stack = player.getStackInHand(hand);
 		if (stack.isEmpty()) {
 			// TODO: Change SoundEvent
-			this.world.playSound(null, this.getBlockPos(), SoundEvents.ENTITY_WOLF_WHINE, this.getSoundCategory(), 1F, 1F);
+			this.world.playSound(null, this.getBlockPos(), SoundEvents.ENTITY_PARROT_EAT, this.getSoundCategory(), 1F, 1F);
 		}
 		if (this.world.isClient()) {
 			for(int i = 0; i < 7; ++i) {
